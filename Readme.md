@@ -19,7 +19,6 @@ The program reads the source DB from `input/pc3k.gdb`:
 ```
 mkdir input
 cp pc3k.gdb input/
-
 ```
 
 # Restoring Firebird database backup
@@ -37,7 +36,6 @@ gbak -c -v -user SYSDBA -password 'masterkey' pc3k.gbk pc3k.gdb
 1. Run the extractor (after activating the virtualenv, see p.1 from Install section):
 ```
 python pc3k_extractor.py 1>log.txt 2>err.txt
-
 ```
 
 ## Additional info
