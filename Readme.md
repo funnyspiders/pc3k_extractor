@@ -14,12 +14,6 @@ virtualenv -p python3 .
 source bin/activate
 pip3 install -r requirements.txt
 ```
-2. Create an input directory and put your Firebird databse file (`.gdb`) there.
-The program reads the source DB from `input/pc3k.gdb`:
-```
-mkdir input
-cp pc3k.gdb input/
-```
 
 # Restoring Firebird database backup
 If you have a Firebird database backup (`.gbk` file) - you will need to restore it:
@@ -37,6 +31,7 @@ gbak -c -v -user SYSDBA -password 'masterkey' pc3k.gbk pc3k.gdb
 ```
 python pc3k_extractor.py 1>log.txt 2>err.txt
 ```
+By default the program reads data from `pc3k.gdb` file.
 
 ## Additional info
 - Resulting filenames are sanitized and should be compatible with both Win/NTFS and Linux/Ext4.
