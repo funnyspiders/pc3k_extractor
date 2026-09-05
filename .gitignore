@@ -3,6 +3,8 @@
 */lib
 */input
 */output
+pc3k.gdb
+pc3k.gbk
 err.txt
 log.txt
 pyvenv.cfg

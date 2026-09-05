@@ -41,12 +41,9 @@ python pc3k_extractor.py 1>log.txt 2>err.txt
 ```
 
 ## Additional info
-- Flags are not supported as now, will be added later. If you need to change input/output
-directories, encoding, passwords, log ile names, chunks sizes, etc. - do it in the program code.
-- Log will be stored in log.txt, errors will be written into err.txt file.
-- Output files will be written into "output" directory by default.
 - Resulting filenames are sanitized and should be compatible with both Win/NTFS and Linux/Ext4.
 - Default DB encoding is CP1251.
+- Check `python pc3k_extractor.py -h` for supported options.
 
 ### DB and file path conflicts
 It is possible to encounter some issues when exporting, the program attempts to fix some of them:
