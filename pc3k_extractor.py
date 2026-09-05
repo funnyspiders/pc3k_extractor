@@ -188,7 +188,7 @@ class PC3K_Extractor(object):
                 f"{out_file.parent.name}_") / out_file.name
             self.logger.error(
                 f"Parent dir already exists as a file for: {out_file} . "
-                f"Will instead write to {new_out_file}", file=sys.stderr)
+                f"Will instead write to {new_out_file}")
             out_file = new_out_file
 
         out_file.parent.mkdir(parents=True, exist_ok=True)
