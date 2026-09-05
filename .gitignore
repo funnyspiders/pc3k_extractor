@@ -1,0 +1,9 @@
+# created by virtualenv automatically
+*/bin
+*/lib
+*/input
+*/output
+err.txt
+log.txt
+pyvenv.cfg
+CACHEDIR.TAG
