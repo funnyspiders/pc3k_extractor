@@ -54,3 +54,6 @@ It is possible to encounter some issues when exporting, the program attempts to 
 - Blobs with broken zlib compression:
   - Such blobs are exported "as is" - without decompressing the data.
   - Not sure why it happens. On some DB there are 50-100 such blobs per 500k+ records.
+
+### Donations
+Donations are accepted at `Bitcoin:bc1qpxpzjc0c7ug5dw3yg87jyqr0lc674aqymwmzsf`
