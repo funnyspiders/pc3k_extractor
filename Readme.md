@@ -24,11 +24,11 @@ cp pc3k.gdb input/
 
 # Restoring Firebird database backup
 If you have a Firebird database backup (`.gbk` file) - you will need to restore it:
-1. Install firebird utils (only for gbk->gdb conversion):
+1. Install firebird utils:
 ```
 sudo apt-get install firebird-utils
 ```
-2. Convert gbk->gdb (if you need to recover a database from a Firebird backup `.gbk` file):
+2. Convert gbk->gdb:
 ```
 gbak -c -v -user SYSDBA -password 'masterkey' pc3k.gbk pc3k.gdb
 ```
